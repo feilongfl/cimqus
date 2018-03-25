@@ -3,9 +3,6 @@
     <h1>
       {{id}}
     </h1>
-    <!--<p>-->
-      <!--{{doc}}-->
-    <!--</p>-->
     <fl-disqus :pageId="id" />
   </section>
 </template>

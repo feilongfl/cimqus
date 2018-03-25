@@ -1,6 +1,6 @@
 <template>
   <div class="comments">
-    <vue-disqus shortname="feilongnews"
+    <vue-disqus shortname="cimqus"
                 :identifier="pageId"
     />
   </div>

@@ -3,10 +3,10 @@ module.exports = {
   ** Build configuration
   */
   build: {},
-  cache: {
-    max: 1000,
-    maxAge: 60000
-  },
+  // cache: {
+  //   max: 1000,
+  //   maxAge: 60000
+  // },
   /*
   ** Headers
   ** Common headers are already provided by @nuxtjs/pwa preset
@@ -35,27 +35,27 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
     'bootstrap-vue/nuxt'
-  ],
-  plugins: [
-    // '~/plugins/asioxcache'
-    '~/plugins/vue-notifications',
-    '~/plugins/lru-cache',
-    '~/plugins/asioxcache',
-    '~/plugins/img-lazeload'
-  ],
-  render: {
-    bundleRenderer: {
-      cache: require('lru-cache')({
-        max: 1000,
-        maxAge: 1000 * 60 * 15
-      })
-    }
-  },
-  router: {
-    middleware: [
-      'debug'
-    ]
-  }
+  ]
+  // plugins: [
+  //   // '~/plugins/asioxcache'
+  //   // '~/plugins/vue-notifications',
+  //   // '~/plugins/lru-cache',
+  //   // '~/plugins/asioxcache',
+  //   // '~/plugins/img-lazeload'
+  // ],
+  // render: {
+  //   bundleRenderer: {
+  //     cache: require('lru-cache')({
+  //       max: 1000,
+  //       maxAge: 1000 * 60 * 15
+  //     })
+  //   }
+  // },
+  // router: {
+  //   middleware: [
+  //     // 'debug'
+  //   ]
+  // }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "newsreader",
+  "name": "cimqus",
   "version": "1.0.0",
-  "description": "a news reader based on vue and mongodb.",
+  "description": "comic discuss",
   "author": "feilong <feilongphone@gmail.com>",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "axios-cache-plugin": "^0.1.0",
     "bootstrap-vue": "^2.0.0-rc.1",
     "nuxt": "latest",
+    "vue-disqus": "^2.0.4",
     "vue-notifications": "^0.9.0",
     "vuex-persistedstate": "^2.4.2"
   },

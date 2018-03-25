@@ -2,7 +2,7 @@
   <section style="padding: 0px">
     <!--<p>nav is here</p>-->
     <b-navbar fixed="top" toggleable="md" type="dark" variant="info">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+      <!--<b-navbar-toggle target="nav_collapse"></b-navbar-toggle>-->
 
       <nuxt-link to="/">
         <b-navbar-brand>
