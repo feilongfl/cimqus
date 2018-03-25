@@ -1,23 +1,5 @@
-# newsreader
+# cimqus
 
-> a news reader based on vue and mongodb.
+本网站提供漫画资源讨论，部署于[cimqus-rlxqjnyuid.now.sh](https://cimqus-rlxqjnyuid.now.sh)。
 
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-# service worker is disabled in dev
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+基于disqus服务，仅提供部分国家或地区使用。
