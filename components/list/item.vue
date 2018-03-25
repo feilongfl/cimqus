@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="'/news/' + id">
+  <nuxt-link :to="'/cimoc/' + id">
     <!--{{id}}-->
     <b-media no-body>
       <b-media-aside vertical-align="center" v-if="imgsrc">
