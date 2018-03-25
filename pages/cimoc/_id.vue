@@ -19,14 +19,8 @@
       'fl-disqus': disqus
     },
     asyncData: async function ({store, params}) {
-      // console.log('p => ', params) // for debug
-      // todo get news
-      // var document = await Vue.prototype.$http(store, 'www.baidu.com')
-      // console.log('doc', document)
-      // Must be a number
       return {
         id: params.id
-        // doc: document
       }
     }
   }
