@@ -2,22 +2,32 @@
   <section class="container">
     <div>
       <!--<logo/>-->
-      <img src="/icon.png"/>
+      <a href="https://github.com/feilongfl/Cimoc/releases">
+        <img src="/cimoc.png"/>
+      </a>
+      <br/>
+      <img src="https://travis-ci.org/feilongfl/Cimoc.svg?branch=release-tci"/>
+      <br/>
+      <img src="https://img.shields.io/github/release/feilongfl/Cimoc.svg"/>
       <h1 class="title">
-        Cimqus
+        Cimoc
       </h1>
       <h2 class="subtitle">
         feilong
       </h2>
+      <div :class="['network',online ? 'online' : 'offline']">
+        <div class="circle"></div>
+        {{ online ? 'online' : 'offline' }}
+      </div>
     </div>
   </section>
 </template>
 
 <script>
-  // import Logo from '~/components/Logo.vue'
+  import Logo from '~/components/Logo.vue'
 
   export default {
-    // components: {Logo},
+    components: {Logo},
     data () {
       return {
         online: true
@@ -46,7 +56,7 @@
 
 <style>
   .container {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
