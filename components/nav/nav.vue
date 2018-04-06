@@ -14,15 +14,23 @@
         <fl-network-status/>
       </b-navbar-brand>
 
+      <nuxt-link to="/cimoc">
+        <b-navbar-brand>
+          <!--<fl-network-status/>-->
+          <img src="https://img.shields.io/github/release/feilongfl/Cimoc.svg"/>
+        </b-navbar-brand>
+      </nuxt-link>
+
       <b-collapse is-nav id="nav_collapse">
 
         <!--<b-navbar-nav>-->
-          <!--<b-nav-item href="#">Link</b-nav-item>-->
-          <!--<b-nav-item href="#" disabled>Disabled</b-nav-item>-->
+        <!--<b-nav-item href="#">Link</b-nav-item>-->
+        <!--<b-nav-item href="#" disabled>Disabled</b-nav-item>-->
         <!--</b-navbar-nav>-->
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
+
 
           <!--<fl-nav-search/>-->
 
@@ -42,9 +50,11 @@
   import navUser from '~/components/nav/navUser.vue'
 
   import networkStatus from '~/components/network/status.vue'
+  import Img from "bootstrap-vue/es/components/image/img";
 
   export default {
     components: {
+      Img,
       'fl-nav-search': navSearch,
       'fl-nav-lang': navLang,
       'fl-nav-user': navUser,
